@@ -1,4 +1,9 @@
-import random
+"""""
+programe fait par Thomas Hamel 
+groupe : 406 et 567 
+Déscription : Petit jeu ou le programme choisir un numéro et l'utilisateur doit le devenir 
+"""""
+import random  #
 
 def jeu_devinette():
     borne_max = int(input("Quel sera la borne max"))
