@@ -20,10 +20,11 @@ def jeu_devinette():
         elif essai > nombre_rand:
             essai = int(input("le numéro que j'ai choisi est plus petit"))
     while essai == nombre_rand:
-        print (" Bravo tu a deveni le numero que j'avais chois en " + str(nombre_essai) = "essai")
-        recommencer = stre(input("Voulez vous recommencer"))
-        if recommencer == "oui":
+        print (" Bravo tu a deveni le numero que j'avais chois en " + str(nombre_essai)  + "essai")
+        recommencer = str(input("Voulez vous recommencer"))
+        if recommencer == " oui":
             jeu_devinette()
-        if recommencer == "non":
+        if recommencer == " non":
+            print("merci et au revoir")
             exit()
 jeu_devinette()
