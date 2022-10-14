@@ -10,7 +10,7 @@ def jeu_devinette():
     borne_min = int(input("Quel sera la borne minimum"))
 
     nombre_rand = random.randint(borne_min, borne_max)
-    essai = int(input("Quel numero pensé vous que j'ai choisi"))
+    essai = int(input("Quel numero pensé vous que j ai choisi entre " + str(borne_min) + " et " + str(borne_max) ))
     nombre_essai = 0
     while essai != nombre_rand:
         nombre_essai += 1
